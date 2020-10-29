@@ -13,4 +13,9 @@
     </PackageReference>
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Exceptions\" />
+    <Folder Include="Expense\" />
+    <Folder Include="Project\" />
+  </ItemGroup>
 </Project>
