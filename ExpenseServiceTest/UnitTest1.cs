@@ -1,6 +1,6 @@
-namespace Dotnet_project_template_test
+namespace ExpenseServiceTest
 {
-    using Dotnet_project_template;
+    using ExpenseService;
     using Xunit;
 
     public class UnitTest1
