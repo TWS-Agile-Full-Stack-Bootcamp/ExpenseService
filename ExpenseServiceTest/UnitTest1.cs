@@ -1,4 +1,6 @@
 using ExpenseService;
+using ExpenseService.Expense;
+using ExpenseService.Projects;
 using Xunit;
 
 namespace ExpenseServiceTest
@@ -9,8 +11,14 @@ namespace ExpenseServiceTest
         public void Should_return_internal_expense_type_if_project_is_internal()
         {
             // given
+            ExpenseType expectedExpenseType = ExpenseType.INTERNAL_PROJECT_EXPENSE;
+            Project internalProject = new Project(ProjectType.INTERNAL, "Internal Project");
+
             // when
+            ExpenseType actualExpenseType = ExpenseService.ExpenseService.GetExpenseCodeByProjectTypeAndName(internalProject);
+
             // then
+            Assert.Equal(expectedExpenseType, actualExpenseType);
         }
 
         [Fact]
