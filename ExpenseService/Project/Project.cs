@@ -1,5 +1,5 @@
 ﻿using System;
-namespace ExpenseService.Projects
+namespace Expense.Service.Projects
 {
     public class Project
     {

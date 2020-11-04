@@ -1,9 +1,9 @@
 ﻿using System;
-using ExpenseService.Exceptions;
-using ExpenseService.Expense;
-using ExpenseService.Projects;
+using Expense.Service.Exceptions;
+using Expense.Service.Expense;
+using Expense.Service.Projects;
 
-namespace ExpenseService
+namespace Expense.Service
 {
     public class ExpenseService
     {

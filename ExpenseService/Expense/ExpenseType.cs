@@ -1,4 +1,4 @@
-﻿namespace ExpenseService.Expense
+﻿namespace Expense.Service.Expense
 {
     public enum ExpenseType
     {

@@ -1,5 +1,5 @@
 ﻿using System;
-namespace ExpenseService.Exceptions
+namespace Expense.Service.Exceptions
 {
     public class UnexpectedProjectTypeException : Exception
     {

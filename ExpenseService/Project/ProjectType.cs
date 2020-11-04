@@ -1,4 +1,4 @@
-﻿namespace ExpenseService.Projects
+﻿namespace Expense.Service.Projects
 {
     public enum ProjectType
     {

@@ -1,7 +1,7 @@
-using ExpenseService;
+using Expense.Service;
 using Xunit;
 
-namespace ExpenseServiceTest
+namespace Expense.Service.Test
 {
     public class ExpenseServiceTest
     {
